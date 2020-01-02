@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Anatomy of a CSS Rule</title>
+<title>CSS Rules</title>
 <style>
 p {
   color: blue;
@@ -15,13 +15,109 @@ h1 {
   font-size: 36px;
   text-align: center;
 }
+
+/* all with class="highlight" */
+.highlight {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  background-color: green;
+  opacity: .6;
+}
+
+/* element with id="mainPoint" */
+#mainPoint {
+  font-size: 24px;
+  font-weight: bold;
+  background-color: red;
+  opacity: .7;
+  color: yellow;
+}
+
+/* all p AND h1 elements */
+p, h1 {
+  color: steelblue;
+  text-align: center;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  background-color: green;
+  border: 1px solid blue;
+  color: black;
+  display: block;
+  width: 200px;
+  text-align: center;
+  margin-bottom: 1px;
+}
+
+a:hover, a:active {
+  background-color: red;
+  color: purple;
+}
+
+header li:nth-child(3) {
+  font-size: 24px;
+}
+
+section div:nth-child(odd) {
+  background-color: gray;
+}
+
+section div:nth-child(4):hover {
+  background-color: green;
+  cursor: pointer;
+}
+
+
 </style>
 </head>
 <body>
-<h1>Anatomy of a CSS Rule</h1>
+<h1>CSS Rules</h1>
 <h2>Subheading 1</h2>
 <p>CSS works by associating rules with HTML elements. These rules govern how the content of specified elements should be displayed. A CSS rule contains two parts: a selector and a declaration.</p>
 <h2>Subheading 2</h2>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est maxime aperiam blanditiis reprehenderit voluptatem quia quas nesciunt amet atque temporibus quod harum sequi voluptate consequatur tenetur perferendis, cum ad! Eos.</p>
+
+<h1>Simple Selectors (h1)</h1>
+<h2>Subheading 1 (h2)</h2>
+<p class="highlight">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus amet alias est? Nobis cum quasi at soluta odit, maiores quaerat dolores expedita ex nemo ea repellendus dolorem sed maxime quos?</p>
+<p class="highlight">Paragraph with attribute class="highlight". Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+<h2>Subheading 2 (h2)</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi nemo ipsum dolores vel modi magnam veniam alias at nam. Voluptatem officiis dolor dolorem aspernatur dolorum modi ipsa, nobis animi aut!</p>
+<div>This is the main point of the entire article. So, attribute 
+<span id="mainPoint">id="mainPoint".</span> </div>
+
+<header>
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="http://goo.gl/V0Wl6s" target="_blank">AngularJS Course</a></li>
+    <li><a href="http://www.facebook.com/CourseraWebDev" target="_blank">Facebook Fan Page</a></li>
+  </ul>
+</header>
+
+<section>
+  <div>DIV 1</div>
+  <div>DIV 2</div>
+  <div>DIV 3</div>
+  <div>DIV 4</div>
+  <div>DIV 5</div>
+  <div>DIV 6</div>
+  <div>DIV 7</div>
+  <div>DIV 8</div>
+  <div>DIV 9</div>
+  <div>DIV 10</div>
+  <div>DIV 11</div>
+  <div>DIV 12</div>
+  <div>DIV 13</div>
+  <div>DIV 14</div>
+  <div>DIV 15</div>
+  <div>DIV 16</div>
+  <div>DIV 17</div>
+  <div>DIV 18</div>
+  <div>DIV 19</div>
+  <div>DIV 20</div>
+</section>
+
 </body>
 </html>

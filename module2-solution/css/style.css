@@ -38,10 +38,12 @@ section {
     text-align: center;
     height: 30px;
     width: 100px;
-    float: right;
+    font-weight: 600;
     font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
     margin-top: 0px;
     margin-bottom: 0px;
+    float: right;
     position: relative;
     top: -2px;
     right: -2px;

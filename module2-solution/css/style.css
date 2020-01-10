@@ -1,0 +1,189 @@
+/********** Base styles **********/
+* {
+    box-sizing: border-box;
+  }
+
+h1 {
+margin-bottom: 15px;
+text-align: center;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 36px;
+}
+/*
+div > div > p {
+    background-color: grey;
+}*/
+p {
+    padding: 10px;
+    clear: right;
+}
+
+
+section {
+    border: 2px solid black;
+    background-color: papayawhip;
+    /*width: 100%;
+    height: 200px;*/
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top:20px;
+    font-family: Cambria;
+    color:black;
+}
+
+#box {
+    background-color: pink;
+    padding: 2px;
+    border: 2px solid black;
+    text-align: center;
+    height: 30px;
+    width: 100px;
+    float: right;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: relative;
+    top: -2px;
+    right: -2px;
+}
+
+#content {
+    background-color: grey; /* green */
+}
+
+/* Simple Responsive Framework. */
+.row {
+    width: 100%;
+  }
+  
+/********** Desktop view **********/
+@media (min-width: 992px) {
+.col-dv-1, .col-dv-2, .col-dv-3, .col-dv-4, .col-dv-5, .col-dv-6, .col-dv-7, .col-dv-8, .col-dv-9, .col-dv-10, .col-dv-11, .col-dv-12 {
+    float: left;
+    /*border: 1px solid green;*/
+}
+.col-dv-1 {
+    width: 8.33%;
+}
+.col-dv-2 {
+    width: 16.66%;
+}
+.col-dv-3 {
+    width: 25%;
+}
+.col-dv-4 {
+    width: 33.33%;
+}
+.col-dv-5 {
+    width: 41.66%;
+}
+.col-dv-6 {
+    width: 50%;
+}
+.col-dv-7 {
+    width: 58.33%;
+}
+.col-dv-8 {
+    width: 66.66%;
+}
+.col-dv-9 {
+    width: 74.99%;
+}
+.col-dv-10 {
+    width: 83.33%;
+}
+.col-dv-11 {
+    width: 91.66%;
+}
+.col-dv-12 {
+    width: 100%;
+}
+}
+
+/********** Tablet view **********/
+@media (min-width: 762px) and (max-width: 991px) {
+.col-tv-1, .col-tv-2, .col-tv-3, .col-tv-4, .col-tv-5, .col-tv-6, .col-tv-7, .col-tv-8, .col-tv-9, .col-tv-10, .col-tv-11, .col-tv-12 {
+    float: left;
+}
+.col-tv-1 {
+    width: 8.33%;
+}
+.col-tv-2 {
+    width: 16.66%;
+}
+.col-tv-3 {
+    width: 25%;
+}
+.col-tv-4 {
+    width: 33.33%;
+}
+.col-tv-5 {
+    width: 41.66%;
+}
+.col-tv-6 {
+    width: 50%;
+}
+.col-tv-7 {
+    width: 58.33%;
+}
+.col-tv-8 {
+    width: 66.66%;
+}
+.col-tv-9 {
+    width: 74.99%;
+}
+.col-tv-10 {
+    width: 83.33%;
+}
+.col-tv-11 {
+    width: 91.66%;
+}
+.col-tv-12 {
+    width: 100%;
+}
+}
+
+/********** Mobile view **********/
+@media (max-width: 767px) {
+.col-mv-1, .col-mv-2, .col-mv-3, .col-mv-4, .col-mv-5, .col-mv-6, .col-mv-7, .col-mv-8, .col-mv-9, .col-mv-10, .col-mv-11, .col-tv-12 {
+    float: left;
+}
+.col-mv-1 {
+    width: 8.33%;
+}
+.col-mv-2 {
+    width: 16.66%;
+}
+.col-mv-3 {
+    width: 25%;
+}
+.col-mv-4 {
+    width: 33.33%;
+}
+.col-mv-5 {
+    width: 41.66%;
+}
+.col-mv-6 {
+    width: 50%;
+}
+.col-mv-7 {
+    width: 58.33%;
+}
+.col-mv-8 {
+    width: 66.66%;
+}
+.col-mv-9 {
+    width: 74.99%;
+}
+.col-mv-10 {
+    width: 83.33%;
+}
+.col-mv-11 {
+    width: 91.66%;
+}
+.col-mv-12 {
+    width: 100%;
+}
+}
+
+</style>
